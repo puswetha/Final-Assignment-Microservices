@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/Eureka-Server.jar Eureka-Server.jar
+EXPOSE 8030
+ENTRYPOINT ["java", "-jar", "Eureka-Server"]

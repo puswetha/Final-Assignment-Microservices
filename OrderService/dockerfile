@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/Order-Service.jar Order-Service.jar
+EXPOSE 8034
+ENTRYPOINT ["java", "-jar", "Order-Service"]

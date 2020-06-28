@@ -1,0 +1,41 @@
+server:
+  port: 8031
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
+  client:
+    service-url:
+      defaultZone: http://localhost:8030/eureka
+      
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: ibm
+    password: ibm
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+
+  zipkin:
+    base-url: http://192.168.0.6:9411/
+    
+  sleuth:
+    sampler:
+      probability: 1.0
+    trace-id128: true
+   
+ 
+  
+
+    
+
+    
+    
+ 

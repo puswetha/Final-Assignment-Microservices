@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/Conversion-Factor.jar Conversion-Factor.jar
+EXPOSE 8031
+ENTRYPOINT ["java", "-jar", "Conversion-Factor"]
