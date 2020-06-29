@@ -62,7 +62,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Eureka-Server</finalName>
+		<finalName>eureka-server</finalName>
 	</build>
 
 </project>

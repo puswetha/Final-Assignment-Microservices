@@ -100,7 +100,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Currency-Conversion</finalName>
+		<finalName>currency-conversion</finalName>
 	</build>
 
 	<dependencyManagement>

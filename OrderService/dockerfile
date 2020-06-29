@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/Order-Service.jar Order-Service.jar
+ADD target/order-service.jar order-service.jar
 EXPOSE 8034
-ENTRYPOINT ["java", "-jar", "Order-Service"]
+ENTRYPOINT ["java", "-jar", "order-service.jar"]

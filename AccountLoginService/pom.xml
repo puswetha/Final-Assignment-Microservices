@@ -99,7 +99,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Account-Login-Service</finalName>
+		<finalName>account-login-service</finalName>
 	</build>
 
 </project>

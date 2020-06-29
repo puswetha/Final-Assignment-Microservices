@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/Account-Login-Service.jar Account-Login-Service.jar
+ADD target/account-login-service.jar account-login-service.jar
 EXPOSE 8033
-ENTRYPOINT ["java", "-jar", "Account-Login-Service"]
+ENTRYPOINT ["java", "-jar", "account-login-service.jar"]
