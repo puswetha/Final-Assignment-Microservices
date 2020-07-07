@@ -24,7 +24,7 @@ spring:
 
 
   zipkin:
-    base-url: http://192.168.0.6:9411/
+    base-url: http://192.168.0.108:9411/
     
   sleuth:
     sampler:
